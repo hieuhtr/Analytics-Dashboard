@@ -1,0 +1,9 @@
+diff a/Analytics-Dashboard/public/js/Dashboard.js b/Analytics-Dashboard/public/js/Dashboard.js	(rejected hunks)
+@@ -28,7 +28,6 @@
+ 	var dateLineChart = dc.lineChart("#date-line-chart");
+ 
+ 	var minDate = dateDim.bottom(1)[0].date; //min date in database
+-	var maxDate = dateDim.top(1)[0].date; //max date in database
+ 	var maxDate = dateFormat.parse("2016-05-22"); //max date in database
+ 	
+ 	
